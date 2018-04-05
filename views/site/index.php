@@ -11,7 +11,7 @@ $this->title = 'Aplikasi Penjualan';
 
         <p class="lead">Aplikasi Penjualan Barang untuk mempermudah dalam pengecekan stok barang dan transaksi barang masuk dan penjualan barang</p>
 
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+        <p><a class="btn btn-lg btn-success" href="https://www.linkedin.com/in/sugeng-kurniawan">Sugeng kurniawan</a></p>
     </div>
 
     <div class="body-content">
