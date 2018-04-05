@@ -24,7 +24,7 @@ class BarangController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['logout','index','about','contact','create','update'],
+                'only' => ['logout','index','about','contact','create','update','delete'],
                 'rules' => [
                     [
                         'actions' => ['logout','index'],
