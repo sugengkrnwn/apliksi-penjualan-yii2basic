@@ -25,10 +25,10 @@ class PenjualanController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['logout','index','about','contact','create','update','delete'],
+                'only' => ['logout','index','create','update','delete'],
                 'rules' => [
                     [
-                        'actions' => ['logout','index'],
+                        'actions' => ['logout','index','create','update','delete'],
                         'allow' => 'true',
                         'roles' => ['@'],
                     ],

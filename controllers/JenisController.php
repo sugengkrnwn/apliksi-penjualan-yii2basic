@@ -25,7 +25,7 @@ class JenisController extends Controller
                 'only' => ['logout','index','about','contact','create','update','delete'],
                 'rules' => [
                     [
-                        'actions' => ['logout','index'],
+                        'actions' => ['logout','index','create','update','delete'],
                         'allow' => 'true',
                         'roles' => ['@'],
                     ],
